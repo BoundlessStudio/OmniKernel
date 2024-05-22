@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Boundless.OmniKernel", "src\Boundless.OmniKernel.csproj", "{BA0F2C7E-3B8D-425D-A8AD-FA9F0C6EDC56}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E0253CB2-594F-46AB-BFAE-0854C6131CB5}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Boundless.OmniKernel.Tests", "test\Boundless.OmniKernel.Tests.csproj", "{B0657485-4197-4B28-B2C6-9E2699BF4091}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA0F2C7E-3B8D-425D-A8AD-FA9F0C6EDC56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA0F2C7E-3B8D-425D-A8AD-FA9F0C6EDC56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA0F2C7E-3B8D-425D-A8AD-FA9F0C6EDC56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA0F2C7E-3B8D-425D-A8AD-FA9F0C6EDC56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0657485-4197-4B28-B2C6-9E2699BF4091}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0657485-4197-4B28-B2C6-9E2699BF4091}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0657485-4197-4B28-B2C6-9E2699BF4091}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0657485-4197-4B28-B2C6-9E2699BF4091}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2CF7A667-139C-4C3B-BA65-FBFF80D2DDEA}
+	EndGlobalSection
+EndGlobal

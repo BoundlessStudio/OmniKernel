@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <IncludeSymbols>True</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <Authors>RGBKnights</Authors>
+    <Company>Venatio Studios</Company>
+    <Description>A kernel to normalize agent behaviors.</Description>
+    <PackageProjectUrl>https://github.com/BoundlessStudio/OmniKernel</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/BoundlessStudio/OmniKernel/blob/main/README.md</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>ai;openai;anthropic;groq;leonardo;perplexity</PackageTags>
+    <VersionPrefix>1.0.1</VersionPrefix>
+    <VersionSuffix>alpha</VersionSuffix>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Boundless.OmniAdapter" Version="1.0.4-alpha" />
+    <PackageReference Include="JsonSchema.Net" Version="7.0.2" />
+    <PackageReference Include="JsonSchema.Net.Generation" Version="4.3.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Options.DataAnnotations" Version="8.0.0" />
+    <PackageReference Include="System.Net.Http.Json" Version="8.0.0" />
+  </ItemGroup>
+
+</Project>
